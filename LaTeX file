@@ -1,0 +1,81 @@
+\documentclass{muratcan_cv}
+
+\setname{Mauricio}{Mamani Cuellar}
+\setaddress{Pampa de la Isla}
+\setmobile{+591 62190465}
+\setmail{mauricio.veri@gmail.com}
+\setposition{Work Student} %ignored for now
+\setlinkedinaccount{https://www.linkedin.com/in/mauricio-mamani-cuellar-673ab31bb/} %you can play with color of the template (red is also nice..)
+\setgithubaccount{https://github.com/Mauricio-Cuellar} %you can play with color of the template (red is also nice..)
+\setthemecolor{blue} %you can play with color of the template (red is also nice..)
+
+\begin{document}
+%Set variables
+%You can add sections, texts, explanations just by copying the style below. Replace the dummy texts "\lipsum[1][x-x]\par" with actual texts.
+%Create header
+\headerview
+\vspace{1ex}
+%Sections
+%
+% Summary
+\addblocktext{Resumen}{%
+Estudiante Activo de Economía, apasionado por el aprendizaje de metodologías cuantitativas orientadas a la solución de problemas empresariales. 
+}
+%
+%Education
+\section{Educación} 
+    \datedexperience{Universidad Autonóma Gabriel René Moreno}{2018-2022} \explanation{Licenciatura en Economía.} 
+
+%
+% Experience
+\section{Experiencia}
+    %
+    \datedexperience{Universidad Autónoma Gabriel René Moreno}{2019-2021}
+    \explanation{Auxiliar de Catedra de Microeconomía.} 
+    %
+    \datedexperience{Autoridad Del Sistema Financiero ASFI}{2019} 
+    \explanation{Encuestador en la Encuesta Nacional de Servicios Financieros.} 
+    %
+%
+% Skills
+\section{Habilidades}
+    %
+     \newcommand{\skillone}{\createskill{Lenguages De programación}{Python. }}
+    %
+    \newcommand{\skilltwo}{\createskill{Analytics}{R \cpshalf MySQL \cpshalf Eviews \cpshalf Stata \cpshalf  Power BI \cpshalf Excel.}}
+    %
+    \newcommand{\skillthree}{\createskill{Metododologías Cuantitativas}{Control Sintético \cpshalf Modelos Autorregresivos  \cpshalf Modelación microeconométrica.}}
+    \newcommand{\skillfour}{\createskill{Procesadores de Textos}{Latex}}
+
+    \newcommand{\skillfive}{\createskill{Idiomas}{\textbf{\emph{Nativo:}} \ \  Español. \ \ \textbf{\emph{Fluido:}} \ \ Inglés. \ \  }}
+    %
+    \createskills{\skillone,\skilltwo, \skillthree, \skillfour, \skillfive}
+%
+% Experience
+\section{Cursos Relevantes}
+    \newcommand{\extraone}{%
+    Programming Essentials in Python (Cisco Networking Academy.)
+    }
+    %
+    \newcommand{\extratwo}{%
+    Microeconometría (Betametrica)
+    }
+    %
+    \newcommand{\extrathree}{%
+    Econometría de la Evaluación de impactos (Universidad Autónoma Chapingo de Perú.)
+    }
+    %
+    \newcommand{\extrafour}{
+    Inglés Empresarial (Coursera.)
+    }
+    \newcommand{\listofextras}{\extraone, \extratwo, \extrathree, \extrafour}
+    %
+    \createbullets{\listofextras}
+\section{Intereses}
+    \begin{itemize}
+        \item datos, herramientas computaciones, tecnología.
+    \end{itemize}
+
+%
+%Footnote
+\end{document}
